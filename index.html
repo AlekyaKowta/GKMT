@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+	<!--TEst comment -->
 		<!-- FontAwesome -->
 		<link rel="stylesheet" href="fontawesome/css/all.css" />
 		<link
@@ -69,8 +69,29 @@
 				});
 			});
 		</script>
-	</head>
+	
+	<style>
 
+      
+	.hiro-header-carousel .carousel-item-title::before {
+	  content: attr(data-number);
+      position: absolute;
+      color: rgba(68, 215, 182, 0.62);
+      z-index: 1;
+      font-size: 200px;
+      left: 0;
+      top: 0; }
+         @media (max-width: 991px) {
+        .hiro-header-carousel .carousel-item-title::before {
+          top: -20px; } }
+          @media (max-width: 767px) {
+        .hiro-header-carousel .carousel-item-title::before {
+          font-size: 150px;
+          top: -30px; } }
+
+
+   			</style>
+</head>
 	<body>
 		<nav
 			id="navbar"
@@ -322,14 +343,17 @@
 
 		<section class="home-slider js-fullheight owl-carousel bg-white">
 			<div class="slider-item js-fullheight">
+
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
+								<div id="" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+
 					<div
 						class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 						data-scrollax-parent="true"
 					>
-						<div class="numbertext">1 / 3</div>
 
+ 
 						<div
 							class="one-third order-md-last img js-fullheight"
 							style="background-image: url(images/portfolio.jpg);"
@@ -340,16 +364,12 @@
 							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }"
 						>
-							<div class="numbertext">01</div>
+							<h3 class="numbertext">Fitness & Health</h3>
 
-							<div class="text mt-md-5">
-								<h1 class="mb-4">
-									FitNutro
-									<span style="color: white;"
-										><br />
-										FitNutro</span
-									>
-								</h1>
+						<h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="01"></h1>
+ 							<div class="text mt-md-5">
+
+								<h1 class="mb-4">FitNutro</h1>
 								<p>
 									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 									Culpa obcaecati perspiciatis assumenda nostrum dolores dolor
@@ -383,11 +403,13 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div></div>
 
 			<div class="slider-item js-fullheight">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
+								<div id="" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+
 					<div
 						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 						data-scrollax-parent="true"
@@ -405,65 +427,8 @@
 							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }"
 						>
-							<div class="numbertext">02</div>
-
-							<div class="text mt-md-5">
-								<h1 class="mb-4">Invest Expert</h1>
-								<p>
-									accusamus omnis impedit provident fugit. Ducimus dolores quia
-									blanditiis corporis similique., dolor sit amet consectetur.
-								</p>
-								<div class="thumb mt-4 mb-3 d-flex">
-									<a href="#" class="thumb-menu pr-md-4 text-center">
-										<div
-											class="img"
-											style="background-image: url(images/smm.png);"
-										></div>
-										<h4>Lorem ipsum</h4>
-									</a>
-									<a href="#" class="thumb-menu pr-md-4 text-center">
-										<div
-											class="img"
-											style="background-image: url(images/smm.png);"
-										></div>
-										<h4>Lorem ipsum</h4>
-									</a>
-									<a href="#" class="thumb-menu pr-md-4 text-center">
-										<div
-											class="img"
-											style="background-image: url(images/smm.png);"
-										></div>
-										<h4>Lorem ipsum</h4>
-									</a>
-								</div>
-								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="slider-item js-fullheight">
-				<div class="overlay"></div>
-				<div class="container-fluid p-0">
-					<div
-						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
-						data-scrollax-parent="true"
-					>
-						<div
-							class="one-third order-md-last img js-fullheight"
-							style="
-								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
-							"
-						>
-							<div class="overlay"></div>
-						</div>
-
-						<div
-							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
-							data-scrollax=" properties: { translateY: '70%' }"
-						>
-							<div class="numbertext">03</div>
+							<div class="numbertext">Social Media & Business</div>
+							<h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="03"></h1>
 
 							<div class="text mt-md-5">
 								<h1 class="mb-4">Archithrones</h1>
@@ -500,9 +465,13 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
 			<div class="slider-item js-fullheight">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
+								<div id="" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+
 					<div
 						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 						data-scrollax-parent="true"
@@ -520,7 +489,69 @@
 							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }"
 						>
-							<div class="numbertext">04</div>
+							<div class="numbertext">Banking & Finance</div>
+							<h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="03"></h1>
+
+							<div class="text mt-md-5">
+								<h1 class="mb-4">Invest Expert</h1>
+								<p>
+									accusamus omnis impedit provident fugit. Ducimus dolores quia
+									blanditiis corporis similique., dolor sit amet consectetur.
+								</p>
+								<div class="thumb mt-4 mb-3 d-flex">
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+									<a href="#" class="thumb-menu pr-md-4 text-center">
+										<div
+											class="img"
+											style="background-image: url(images/smm.png);"
+										></div>
+										<h4>Lorem ipsum</h4>
+									</a>
+								</div>
+								<p><a href="#" class="btn-get-started">VIEW CASE STUDY</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="slider-item js-fullheight">
+				<div class="overlay"></div>
+				<div class="container-fluid p-0">
+								<div id="" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+
+					<div
+						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
+						data-scrollax-parent="true"
+					>
+						<div
+							class="one-third order-md-last img js-fullheight"
+							style="
+								background-image: url(images/black-wireless-computer-keyboard-beside-black-ceramic-mug-3740725.jpg);
+							"
+						>
+							<div class="overlay"></div>
+						</div>
+
+						<div
+							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }"
+						>
+							<div class="numbertext">Education</div>
+							<h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="04"></h1>
 
 							<div class="text mt-md-5">
 								<h1 class="mb-4">Zedin Elma</h1>
@@ -557,9 +588,12 @@
 					</div>
 				</div>
 			</div>
+		</div>
 			<div class="slider-item js-fullheight">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
+								<div id="" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+
 					<div
 						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 						data-scrollax-parent="true"
@@ -577,7 +611,8 @@
 							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }"
 						>
-							<div class="numbertext">05</div>
+							<div class="numbertext">Medical & Health</div>
+							<h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="05"></h1>
 
 							<div class="text mt-md-5">
 								<h1 class="mb-4">Primeiros Passos</h1>
@@ -614,9 +649,12 @@
 					</div>
 				</div>
 			</div>
+		</div>
 			<div class="slider-item js-fullheight">
 				<div class="overlay"></div>
 				<div class="container-fluid p-0">
+								<div id="" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+
 					<div
 						class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 						data-scrollax-parent="true"
@@ -634,7 +672,8 @@
 							class="one-forth d-flex js-fullheight align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }"
 						>
-							<div class="numbertext">06</div>
+							<div class="numbertext">Transportation</div>
+							<h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="06"></h1>
 
 							<div class="text mt-md-5">
 								<h1 class="mb-4">Pearl Cab</h1>
@@ -671,6 +710,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</section>
 
 		<!-- *********************************** Services we offer ********************************* -->
@@ -689,7 +729,7 @@
 				<div class="p-0">
 					<div id="egg">
 						<img id="img1" src="images/egg.png" />
-						<div id="mad" class="tabcontent active" style="">
+						<div id="mad" class="tabcontent active">
 							<br />
 							<img
 								src="icons/icons8-iphone-x-96.png"
@@ -720,7 +760,7 @@
 							/>
 						</div>
 
-						<div id="wdd" class="tabcontent" style="">
+						<div id="wdd" class="tabcontent">
 							<br />
 							<img
 								src="icons/icons8-linux-server-80.png"
@@ -752,7 +792,7 @@
 								value="VIEW MORE"
 							/>
 						</div>
-						<div id="Dmb" class="tabcontent" style="">
+						<div id="Dmb" class="tabcontent">
 							<br />
 							<img
 								src="icons/icons8-marketing-64.png"
@@ -787,7 +827,7 @@
 								value="VIEW MORE"
 							/>
 						</div>
-						<div id="Ui" class="tabcontent" style="">
+						<div id="Ui" class="tabcontent">
 							<br />
 							<img
 								src="icons/icons8-blueprint-with-pen-100.png"
@@ -820,7 +860,7 @@
 							/>
 						</div>
 
-						<div id="Sd" class="tabcontent" style="">
+						<div id="Sd" class="tabcontent">
 							<br />
 							<img
 								src="icons/icons8-iphone-x-96.png"
@@ -852,7 +892,7 @@
 							/>
 						</div>
 
-						<div id="Ods" class="tabcontent" style="">
+						<div id="Ods" class="tabcontent">
 							<br />
 							<img
 								src="icons/icons8-blueprint-with-pen-100.png"
@@ -1502,7 +1542,7 @@
 							CONFUSED</span
 						>
 						about the<span style="color: #ff6300; font-weight: bold;">
-							WRITE CHOICE</span
+							RIGHT CHOICE</span
 						>, We appreciate your
 						<span style="color: #ff6300; font-weight: bold;"> ENTHUSIASM</span>.
 						We are here to fulfill your quest by our<span
@@ -1742,7 +1782,7 @@
 			class="our-business-presence-section container-fluid p-4 d-flex flex-column align-items-center justify-content-lg-center"
 		>
 			<div class="heading mt-2 p-3">
-				OUR <span>BUSINNESS PRESENCE</span>
+				OUR <span>BUSINESS PRESENCE</span>
 				<div class="underline"></div>
 			</div>
 
@@ -1772,7 +1812,7 @@
 				<div class="col-7 d-flex justify-content-start">
 					Ready With an Idea,
 					<br />
-					Need an experince hand
+					Need an experinced hand
 				</div>
 				<div class="angle-block col-1"></div>
 				<div class="col-4 d-flex justify-content-end w-auto p-0">
