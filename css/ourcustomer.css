@@ -1,3 +1,9 @@
+#year:hover{
+    color:#;
+    cursor: pointer;
+}
+
+
 #ourclients{
     height:600px;
 }
@@ -118,7 +124,7 @@
 }
 @media only screen and (max-width:789px){
     #ourclients{
-        margin-top:300px;
+        
         height:600px;
     }
     
@@ -173,11 +179,11 @@
 
 @media only screen and (max-width:500px){
     #ourclients{
-        margin-top:300px;
+       
         height:860px;
     }
     #egg{
-        margin-left:60px;
+        margin-left:40px;
         margin-top:10px;
         width:300px;
         height:400px;
@@ -273,4 +279,51 @@
     }
 }
 
+@media only screen and (max-width:320px){
+    #egg{
+        margin-left:-5px;
+        margin-top:10px;
+        width:290px;
+        height:400px;
+    }
+        #cloudimg{
+            width:280px;
+            height:300px;
+            margin-top:10px;
+        }
+        #customerimg1{
+            margin-left:100px;
+            margin-top:-410px;
+        }
+        #customerimg2{
+            margin-left:120px;
+            margin-top:-580px;
+        }
+        #customerimg3{
+            margin-left:170px;
+            margin-top:-500px;
+        }
+        #customerimg4{
+            margin-left:20px;
+            margin-top:-340px;
+        }
+        #customerimg5{
+            margin-left:130px;
+            margin-top:-470px;
+        }
+        #customerimg6{
+            margin-left:210px;
+            margin-top:-450px;
+        }
+        
+        #customerimg7{
+            margin-left:110px;
+            margin-top:-430px;
+        }
+        #customerimg8{
+            margin-left:23px;
+            margin-top:-80px; 
+            margin-top:-700px;
+        }
+}
 
