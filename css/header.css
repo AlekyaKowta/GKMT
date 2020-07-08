@@ -11,6 +11,8 @@ a:hover {
 	background-color: white;
 }
 
+<<<<<<< HEAD
+=======
 
 
 .btn-get-started {
@@ -87,6 +89,7 @@ a:hover {
 
 
 
+>>>>>>> 7d25ca9f20d157e9f443d84d6fe8f20824f65fdd
 nav {
 	position: fixed !important;
 	top: 0;
@@ -175,6 +178,40 @@ button:focus {
 	outline: 0px;
 	outline: 0px rgba(0, 0, 0, 0);
 	outline-color: rgba(0, 0, 0, 0) !important;
+}
+
+.btn-get-started {
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 9px 23px 9px 23px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 0 0 0 0;
+	color: #fff;
+	background: linear-gradient(
+		180deg,
+		rgba(246, 93, 23, 1) 0,
+		rgba(255, 150, 35, 1) 100%
+	);
+	border: 2px solid #ff6300;
+}
+
+.btn-get-started:hover {
+	background: transparent;
+	color: #ff6300;
+	font-family: "Jost";
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 9px 23px 9px 23px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 0 0 0 0;
+	border: 2px solid #ff6300;
 }
 
 /* mobile responsive*/
