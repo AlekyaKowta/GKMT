@@ -1,6 +1,7 @@
+
 #ourclients {
 	height: 600px;
-}
+
 #egg {
 	position: relative;
 	margin-top: 10px;
@@ -60,58 +61,65 @@
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 1089px) {
-	#egg {
-		margin-left: 30px;
-		margin-top: 5px;
-		width: 300px;
-		height: 400px;
-	}
-	#cloudimg {
-		width: 480px;
-		height: 300px;
-		margin-top: 50px;
-	}
-	#customerimg1 {
-		margin-left: 130px;
-		margin-top: -420px;
-	}
-	#customerimg2 {
-		margin-left: 230px;
-		margin-top: -580px;
-	}
-	#customerimg3 {
-		margin-left: 320px;
-		margin-top: -500px;
-	}
-	#customerimg4 {
-		margin-left: 100px;
-		margin-top: -340px;
-	}
-	#customerimg5 {
-		margin-left: 190px;
-		margin-top: -500px;
-	}
-	#customerimg6 {
-		margin-left: 390px;
-		margin-top: -500px;
-	}
 
-	#customerimg7 {
-		margin-left: 280px;
-		margin-top: -500px;
-	}
-	#customerimg8 {
-		margin-left: 50px;
-		margin-top: -80px;
-		margin-top: -700px;
-	}
+	
+@media only screen and (max-width:1089px){
+    #egg
+    {
+        margin-left:30px;
+        margin-top:5px;
+        width:300px;
+        height:400px;
+    }
+    #cloudimg{
+        width:480px;
+        height:300px;
+        margin-top:50px;
+    }
+    #customerimg1{
+        margin-left:130px;
+        margin-top:-420px;
+    }
+    #customerimg2{
+        margin-left:230px;
+        margin-top:-580px;
+    }
+    #customerimg3{
+        margin-left:320px;
+        margin-top:-500px;
+    }
+    #customerimg4{
+        margin-left:100px;
+        margin-top:-340px;
+    }
+    #customerimg5{
+        margin-left:190px;
+        margin-top:-500px;
+    }
+    #customerimg6{
+        margin-left:390px;
+        margin-top:-500px;
+    }
+    
+    #customerimg7{
+        margin-left:280px;
+        margin-top:-500px;
+    }
+    #customerimg8{
+        margin-left:50px;
+        margin-top:-80px; 
+        margin-top:-700px;
+    }
+}
+
+   
 }
 @media only screen and (max-width: 789px) {
 	#ourclients {
 		margin-top: 300px;
 		height: 600px;
 	}
+
 
 	#egg {
 		margin-left: 20px;
@@ -158,6 +166,7 @@
 
 		margin-top: -700px;
 	}
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -212,6 +221,7 @@
 	}
 }
 
+
 @media only screen and (max-width: 380px) {
 	#egg {
 		margin-left: 10px;
@@ -219,6 +229,8 @@
 		width: 300px;
 		height: 400px;
 	}
+
+       
 
 	#cloudimg {
 		width: 350px;
