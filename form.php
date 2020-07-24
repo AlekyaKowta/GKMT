@@ -1,8 +1,14 @@
 <?php
 
+    
+if( !file_exists("uploads")){
+    //Create Directory
+    mkdir("uploads");
+}
+
     $file=$_FILES['file']['name'];
     $ext = pathinfo($file, PATHINFO_EXTENSION);
-    $allowed = ['pdf', 'txt', 'doc', 'docx', 'zip'];
+    $allowed = ['pdf', 'txt', 'doc', 'docx', 'zip','jpg','jpeg'];
 
     if (in_array($ext, $allowed))
     {     
