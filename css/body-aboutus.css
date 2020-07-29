@@ -336,7 +336,24 @@ a:hover {
 	height: 2px;
 	background-color: #07999f;
 }
-
+@media screen and (min-width: 1300px){
+	.ball-container{
+		margin-left:180px;
+		margin-top:25px;
+	}
+}
+@media screen and (min-width: 1000px){
+	.ball-container{
+		margin-left:80px;
+		margin-top:25px;
+	}
+}
+@media screen and (min-width:700px){
+	.ball-container{
+		margin-left:20px;
+		margin-top:25px;
+	}
+}
 @media screen and (max-width: 576px) {
 	.fourth-section .heading {
 		font-size: 1.5rem !important;
@@ -345,8 +362,14 @@ a:hover {
 	.fourth-section .heading span::after {
 		width: 100px;
 		transform: translate(-250px, 35px);
+
+	}
+	.ball-container{
+		margin-left:1px;
+		margin-top:50px;
 	}
 }
+
 
 .industry-switching-tabs {
 	height: 300px;
@@ -358,6 +381,7 @@ a:hover {
 	max-width: 250px;
 	border-radius: 50%;
 	position: relative;
+	
 }
 .industry-switching-tabs .ball {
 	width: 25px;
