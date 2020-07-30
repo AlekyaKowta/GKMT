@@ -323,6 +323,9 @@
 	position: absolute;
 	margin-top:50px;
 }
+#egg{
+	position: absolute;
+}
 #ocq{
 	color: #ff4800; font-size: 20px;margin-left:50px;
 }
@@ -414,26 +417,49 @@
 	border-radius: 30px;
 	cursor: pointer;
 }
+@media only screen and (min-width: 1200px) {
+	#egg {
+		margin-left:90px;
+		margin-top: 5px;
+		width: 390px;
+		height: 400px;
+	}
+	#ocn{
+		margin-left:195px;
+	}
+	#ocp{
+		margin-left:85px;
+	}
+	#ocq{
+		margin-left:120px;
+	}
+}
 
 @media only screen and (max-width: 1089px) {
 	#egg {
 		margin-left: 30px;
 		margin-top: 5px;
-		width: 300px;
+		width: 390px;
 		height: 400px;
 	}
 	#dashed{
 		width:480px;
 		height:300px;
-		margin-left:-20px;
+		margin-left:-18px;
 		filter:brightness(800%);
 		position: absolute;
-		margin-top:50px;
+		margin-top:70px;
+	}
+	#ocn{
+		margin-left:135px;
+	}
+	#ocp{
+		margin-left:10px;
 	}
 	#customerimg1 {
 		position: relative;
-		margin-top:98px;
-		margin-left:-20px;
+		margin-top:118px;
+		margin-left:-30px;
 	}
 	#customerimg2 {
 		position: relative;
@@ -449,22 +475,22 @@
 	#customerimg4 {
 		position: relative;
 		margin-top:-20px;
-		margin-left:295px;
+		margin-left:270px;
 	}
 	#customerimg5 {
 		position: relative;
-		margin-top:-290px;
-		margin-left:215px;
+		margin-top:-260px;
+		margin-left:200px;
 	}
 	#customerimg6 {
 		position: relative;
-		margin-left: 400px;
+		margin-left: 360px;
 		margin-top: -600px;
 	}
 	
 	#customerimg7 {
 		position: relative;
-		margin-left: 300px;
+		margin-left: 275px;
 		margin-top: -500px;
 	}
 	#customerimg8 {
@@ -475,7 +501,7 @@
 	}
 	#customerimg9 {
 		position: relative;
-		margin-left: 230px;
+		margin-left: 200px;
 		
 		margin-top: -790px;
 	}
@@ -598,7 +624,7 @@
 @media only screen and (max-width: 500px) {
 	#ourclients {
 		
-		height: 700px;
+		height: 750px;
 	}
 	#egg {
 		margin-left:35px;
@@ -708,7 +734,7 @@
 @media only screen and (max-width: 380px) {
 	#ourclients {
 		
-		height: 670px;
+		height:735px;
 	}
 	#egg {
 		margin-left:10px;
@@ -895,15 +921,15 @@
 	}
 	#customerimg11 {
 		position: relative;
-		margin-left:260px;
+		margin-left:270px;
 		
-		margin-top: -630px;
+		margin-top: -590px;
 	}
 	#customerimg12 {
 		position: relative;
-		margin-left: 220px;
+		margin-left: 240px;
 		
-		margin-top: -560px;
+		margin-top: -52px;
 	}
 	.customerimg {
 		border-radius:100px;

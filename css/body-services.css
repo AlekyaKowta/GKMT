@@ -548,13 +548,11 @@ a:hover {
 
 /* *************************** Industries we Serve section ************************** */
 
-.fourth-section {
-	background-color: #1e3957;
-}
+
 
 .fourth-section .heading {
 	font-size: 1.8rem;
-	color: white;
+	color: #1e3957;
 }
 
 .fourth-section .heading span {
@@ -570,7 +568,25 @@ a:hover {
 	height: 2px;
 	background-color: #07999f;
 }
+@media screen and (min-width: 1200px){
+	.ball-container{
+		margin-left:160px;
+		margin-top:50px;
+		
+	}
+}
+@media screen and (max-width:1100px){
+	.ball-container{
+		margin-left:110px;
+		margin-top:50px;
+		
+	}
+}
 
+
+
+
+	
 @media screen and (max-width: 576px) {
 	.fourth-section .heading {
 		font-size: 1.5rem !important;
@@ -579,8 +595,14 @@ a:hover {
 	.fourth-section .heading span::after {
 		width: 100px;
 		transform: translate(-250px, 35px);
+
+	}
+	.ball-container{
+		margin-left:1px;
+		margin-top:50px;
 	}
 }
+
 
 .industry-switching-tabs {
 	height: 300px;
@@ -592,6 +614,7 @@ a:hover {
 	max-width: 250px;
 	border-radius: 50%;
 	position: relative;
+	
 }
 .industry-switching-tabs .ball {
 	width: 25px;
