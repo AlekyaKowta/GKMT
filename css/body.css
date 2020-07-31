@@ -502,6 +502,7 @@
 	background-position: center center;
 	background-size: cover;
 	position: relative;
+
 }
 
 #hero .container {
@@ -590,20 +591,32 @@
 	#hero .hero-img img {
 		width: 80%;
 	}
-
+    
+	#ondemandh4{
+		color:white;
+	}
+	#mb3{
+		color:white;
+	}
+	#mb4{
+		color:white;
+	}
+	#ondemandp{
+		color:white;
+	}
 	#hero/* .btn-get-started */ {
-		font-size: 16px;
+		font-size: 15px;
 		padding: 10px 24px 11px 24px;
 	}
 
 	#hero .btn-watch-video {
-		font-size: 16px;
+		font-size: 15px;
 		padding: 10px 0 8px 40px;
 		margin-left: 20px;
 	}
 
 	#hero .btn-watch-video i {
-		font-size: 32px;
+		font-size: 30px;
 		top: 7px;
 	}
 }
